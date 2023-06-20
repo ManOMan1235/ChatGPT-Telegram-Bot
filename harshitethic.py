@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "ENTER YOUR API KEY HERE"
+    openai.api_key = "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"
 else:
     openai.api_key = aienv
 print(aienv)
@@ -33,7 +33,7 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Harshit ethic'
+botname = 'بوت العرب '
 username = 'harshitethic_bot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
